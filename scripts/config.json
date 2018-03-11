@@ -1,0 +1,17 @@
+{
+	"disable_mlock": true,
+	"default_lease_ttl": "8h",
+	"max_lease_ttl": "96h",
+	"storage": {
+		"inmem": {}
+	},
+    "plugin_directory": "PLUGINDIR",
+    "disable_clustering": true,
+	"listener": {
+		"tcp": {
+			"address": "127.0.0.1:PORT",
+			"tls_disable": 1
+		}
+	}
+}
+
